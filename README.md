@@ -23,3 +23,5 @@ go build -o appreg
 Dockerfile creates a base image that is configured with the Oracle instant
 client software. It can be used to containerize go applications that require
 the Oracle instant client software.
+
+This creates a base image named elcaro.
