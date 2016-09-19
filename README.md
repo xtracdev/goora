@@ -11,6 +11,11 @@ apt.conf.template to apt.conf and edit it to reflect your proxy configuration.
 If you are not building this behind an HTTP proxy, you need to remove the 
 COPY apt.conf line from the Docker files.
 
+Note that you will need to download the Oracle instant client files for
+Linux from [Oracle](http://www.oracle.com/technetwork/topics/linuxx86-64soft-092277.html)
+and place them locally under `oracle/linux` - refer to the Dockerfile 
+for the specifics and the relative file path.
+
 ### Use
 
 Dockerfile.golang is an image for compiling golang applications
