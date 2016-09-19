@@ -35,3 +35,26 @@ client software. It can be used to containerize go applications that require
 the Oracle instant client software.
 
 This creates a base image named elcaro.
+
+### Contributing
+
+To contribute, you must certify you agree with the [Developer Certificate of Origin](http://developercertificate.org/)
+by signing your commits via `git -s`. To create a signature, configure your user name and email address in git.
+Sign with your real name, do not use pseudonyms or submit anonymous commits.
+
+
+In terms of workflow:
+
+0. For significant changes or improvement, create an issue before commencing work.
+1. Fork the respository, and create a branch for your edits.
+2. Add tests that cover your changes, unit tests for smaller changes, acceptance test
+for more significant functionality.
+3. Run gofmt on each file you change before committing your changes.
+4. Run golint on each file you change before committing your changes.
+5. Make sure all the tests pass before committing your changes.
+6. Commit your changes and issue a pull request.
+
+### License
+
+(c) 2016 Fidelity Investments
+Licensed under the Apache License, Version 2.0
