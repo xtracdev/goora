@@ -19,9 +19,9 @@ go sql drivers). To use it for working with the github.com/mattn/go-oci8
 driver:
 
 <pre>
-docker build -f Dockerfile.goracle . -t dasmith/goora
+docker build -f Dockerfile.goracle . -t xtracdev/goora
 cd $GOPATH
-docker run --rm -it -v "$PWD":/go -w /go/src/github.com/xtraclabs dasmith/goora bash
+docker run --rm -it -v "$PWD":/go -w /go/src/github.com/xtraclabs xtracdev/goora bash
 
 # In the shell
 cd appreg
