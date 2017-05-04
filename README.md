@@ -1,7 +1,6 @@
 ## GoOra - Go Oracle
 
-This project has a couple Docker files useful when working with Oracle 
-in golang.
+Go build environment supplemented with the Oracle Instant Client software
 
 ### Set Up
 
@@ -34,12 +33,6 @@ go get github.com/rjeczalik/pkgconfig/cmd/pkg-config
 go get -v github.com/mattn/go-oci8
 go build -o appreg
 </pre>
-
-Dockerfile creates a base image that is configured with the Oracle instant
-client software. It can be used to containerize go applications that require
-the Oracle instant client software.
-
-This creates a base image named elcaro.
 
 ### Contributing
 
