@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.8.1
 
 COPY apt.conf /etc/apt/apt.conf
 
